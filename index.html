@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- STYLE.CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Dark & Light Mode</title>
+</head>
+<body>
+   <nav class="nav">
+    <a href="#home" class="navlinks">HOME</a>
+    <a href="#about" class="navlinks">ABOUT</a>
+    <a href="#project" class="navlinks">PROJECT</a>
+    <a href="#contact" class="navlinks">CONTACT</a>
+   </nav>
+
+   <div class="switchParent">
+    <div class="child1">
+        <p>Light Mode</p>
+        <ion-icon class="icon" name="sunny"></ion-icon>
+    </div>
+    <label class="toggle-Switch">
+        <input type="checkbox" class="checkBox">
+        <div class="slider"></div>
+    </label>
+   </div>
+
+   <section id="home">
+    <h1>WELCOME TO MY PAGE</h1>
+    <p> &dash;Recreated by <em>Siddharth Eligeti</em></p>
+   </section>
+
+   <section id="about">
+    <h1>About</h1>
+    <div class="imageParent">
+        <div class="imageBox">
+            <p>Web Innovation</p>
+            <img src="img/undraw_block_light.svg" alt="image" class="image1">
+        </div>
+        <div class="imageBox">
+            <p>Problem solving</p>
+            <img src="img/undraw_software_light.svg" alt="image" class="image2">
+        </div>
+        <div class="imageBox">
+            <p>High Concept</p>
+            <img src="img/undraw_happy_light.svg" alt="image" class="image3">
+        </div>
+    </div>
+   </section>
+
+   <section id="project">
+    <h1>BUTTIONS</h1>
+    <div class="btns">
+        <button class="primary">Primary</button>
+        <button class="secondary">Secondary</button>
+        <button class="primary" disabled>Disabled</button>
+        <button class="outline">Outline</button>
+        <button class="secondary outline">Alt outline</button>
+        <button class="outline" disabled>Disabled</button>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio corrupti ipsa eius quasi officia ipsam, id rem facilis mollitia reiciendis dolorem tenetur vel ratione, quos, aliquam non et. Culpa, eveniet.</p>
+   </section>
+
+   <section id="contact">
+    <h1>CONTACT ME</h1>
+    <div class="socialIcons">
+        <ion-icon class="social-icon" name="logo-github"></ion-icon> 
+        <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+        <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+        <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
+        <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+        <ion-icon class="social-icon" name="logo-whatsapp"></ion-icon>
+    </div>
+   </section>
+
+   <footer>
+    <p>&copy; copyright by Siddharth Eligeti Recreated only for Skill Improvement </p>
+   </footer>
+    
+</body>
+</html>
