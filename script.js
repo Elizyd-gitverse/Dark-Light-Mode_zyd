@@ -10,11 +10,13 @@ const imgSwitch = function(theme) {
    image3.src = `img/undraw_happy_${theme}.svg`
 }
 
+
 const SwitchDark = function(isDark) {
  child1.children[0].textContent = isDark ? 'Dark Mode' : 'Light Mode'
  isDark ? child1.children[1].setAttribute('name', 'moon') : child1.children[1].setAttribute('name', 'sunny')
  isDark ? imgSwitch('dark') : imgSwitch('light')
 }
+
 
 toggleSwitch.addEventListener('click', function(e) {
    if(e.target.checked) {
