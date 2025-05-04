@@ -1,3 +1,4 @@
+console.log('Github Project')
 const toggleSwitch = document.querySelector('.checkBox')
 const child1 = document.querySelector('.child1')
 const image1 = document.querySelector('.image1')
