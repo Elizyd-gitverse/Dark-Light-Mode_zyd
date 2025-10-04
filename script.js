@@ -1,9 +1,11 @@
-console.log('Github Project')
+console.log('new folder')
 const toggleSwitch = document.querySelector('.checkBox')
 const child1 = document.querySelector('.child1')
 const image1 = document.querySelector('.image1')
 const image2 = document.querySelector('.image2')
 const image3 = document.querySelector('.image3')
+
+
 
 const imgSwitch = function(theme) {
    image1.src = `img/undraw_block_${theme}.svg`
